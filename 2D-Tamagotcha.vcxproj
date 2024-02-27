@@ -138,16 +138,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2D-Tamagotcha.cpp" />
-    <ClCompile Include="RendererInitializer.cpp" />
-    <ClCompile Include="SDLInitializer.cpp" />
-    <ClCompile Include="WindowInitializer.cpp" />
-    <ClCompile Include="WindowProperty.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RendererInitializer.h" />
-    <ClInclude Include="SDLInitializer.h" />
-    <ClInclude Include="WindowInitializer.h" />
-    <ClInclude Include="window_property.h" />
+    <Image Include="C:\Users\snd00\Desktop\testImage.jpg" />
+    <Image Include="C:\Users\snd00\Downloads\Download\testImage.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
